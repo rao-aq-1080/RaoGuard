@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="RaoGuard checks a client request against the signed SOW, quotes the clause, and drafts a change order. Your team decides. Nothing is auto-sent." />
+  <title>RaoGuard</title>
+  <link rel="icon" href="/static/logo-mark.png" />
+  <link rel="stylesheet" href="/static/app.css?v=8" />
+</head>
+<body>
+  <header class="topnav no-print">
+    <a class="brand" href="#/product" aria-label="RaoGuard home">
+      <img class="logo-full" src="/static/logo.png" alt="RaoGuard" />
+      <img class="logo-mark" src="/static/logo-mark.png" alt="RaoGuard" />
+    </a>
+    <button class="burger" id="burger" type="button" aria-label="Open menu">Menu</button>
+    <nav class="nav-links" id="top-nav"></nav>
+  </header>
+  <div id="shell">
+    <div class="page">
+      <p class="kicker">Commercial control layer</p>
+      <h1 class="hero">Stop doing work you forgot to bill for.</h1>
+      <p class="lede">Loading RaoGuard…</p>
+    </div>
+  </div>
+  <footer class="site-footer no-print" id="site-footer"></footer>
+  <div id="modal" class="modal hidden"></div>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <div id="cookie" class="cookie hidden no-print">
+    <p>We use a session cookie so you stay signed in. No analytics. No ads. See <a href="#/cookies">Cookies</a>.</p>
+    <button class="btn small" type="button" id="cookie-ok">Accept</button>
+  </div>
+  <div class="chat-dock no-print" id="chat-dock">
+    <div class="chat-hint" id="chat-hint">Ask RaoGuard</div>
+    <button class="chat-fab" id="chat-fab" type="button" aria-label="Open assistant">R</button>
+    <div class="chat-panel hidden" id="chat-panel">
+      <div class="chat-head">
+        <div>
+          <div class="kicker">Assistant</div>
+          <div class="serif" style="font-size:1.05rem">RaoGuard</div>
+        </div>
+        <button class="btn small ghost" type="button" id="chat-close">Close</button>
+      </div>
+      <div class="chat-log" id="chat-log"></div>
+      <form class="chat-form" id="chat-form">
+        <input id="chat-input" maxlength="800" placeholder="Ask about a project or a plan…" autocomplete="off" />
+        <button class="btn small" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <script src="/static/app.js?v=8"></script>
+</body>
+</html>

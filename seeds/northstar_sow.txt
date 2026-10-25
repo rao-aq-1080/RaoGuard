@@ -1,0 +1,41 @@
+STATEMENT OF WORK
+Project: Northstar Retail — Shopify Plus storefront
+Client: Northstar Retail Ltd.
+Date: 12 August 2026
+Agency: Harbor & Co.
+
+1. Scope of Work
+Harbor & Co. will design and develop a Shopify Plus storefront for Northstar Retail including:
+- Theme design in Figma (desktop + mobile) for Home, PLP, PDP, Cart, Checkout (Shopify checkout), About, Contact
+- Development on Shopify Plus using Online Store 2.0
+- Up to 12 product templates / metafield-driven PDP variants
+- Collections: 8 collection templates
+- Stripe payments (Shopify Payments)
+- Klaviyo email integration (standard events: checkout started, order placed, abandoned cart)
+- Content migration of up to 400 SKUs from the existing Magento catalog (CSV)
+- Basic SEO: titles, metas, schema for product
+- QA on Chrome, Safari, Firefox (latest) and iOS/Android Safari/Chrome
+- Training: one 90-minute admin handoff
+
+2. Explicitly out of scope
+- Native iOS or Android applications
+- Wholesale / B2B price lists and customer-specific catalogs
+- ERP / NetSuite / SAP integrations
+- Custom loyalty or points programs
+- Marketplace integrations (Amazon, eBay)
+- Headless storefront or Hydrogen
+- Multilingual / multi-currency beyond USD
+- Custom checkout extensibility beyond Shopify Checkout
+- Photography, copywriting, brand identity
+
+3. Assumptions
+- Client provides Magento CSV export
+- Brand guidelines exist and will be supplied in week 1
+- One round of design revision, one round of development revision
+
+4. Commercials
+- Fixed fee: $48,000 USD
+- Timeline: 10 weeks
+- Blended rate for change orders: $165/hour
+- Internal cost rate for margin math: $80/hour
+- Change orders require written approval before work begins
